@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="3; url=MainPage.html">
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <link href="css/Loading.css" type="text/css" rel="stylesheet">
+        <script>
+            $(function() {
+                   var seconds = 3;
+                   function counting() {
+                       $(".seconds").html(seconds--);
+                       setTimeout(counting, 1000);
+                   }
+                   counting();
+            });
+           </script>
+    </head>
+    <body>
+        <div class="ring">
+            Loading
+            <span></span>
+            <br>
+            <b class="seconds">3</b>초 후 이동
+        </div>
+    </body>
+</html>

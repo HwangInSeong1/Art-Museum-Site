@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./css/Main.css">
+    <link rel="stylesheet" href="./css/Login.css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/LoginModal.js" defer></script>
+</head>
+<body>
+    <div class="contain">
+        <div class="mainside">
+            <input type="checkbox" id="menuicon" />
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="sidebar">
+                <a href="MainPage.html">
+                    <div class="sidemenuTitle">
+                        <h1>Open Gallary</h1>
+                    </div>
+                </a>
+                <div class="sidemenu">
+                    <ul>
+                        <li><a href="./Slider.html" target="_self">Art Gallary</a></li>
+                        <li><a href="#">Fashion Shows</a> </li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">Met Gala</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="" target="_blank">Subscribe</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Vogue Archive</a></li>
+                        <li><a href="#">Open Market</a></li>
+                        <li><a href="#">Log In</a> | <a href="#">Register</a></li>
+                    </ul>
+                </div>
+                <div class="sideundermenu">
+                    <ul>
+                        <li><a href="https://www.google.co.kr/" target="_blank">
+                                <ion-icon name="logo-google" class="icon01" size="large"></ion-icon>
+                            </a></li>
+                        <li><a href="https://ko-kr.facebook.com/" target="_blank">
+                                <ion-icon name="logo-facebook" class="icon02" size="large"></ion-icon>
+                            </a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">
+                                <ion-icon name="logo-youtube" class="icon03" size="large"></ion-icon>
+                            </a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">
+                                <ion-icon name="logo-instagram" class="icon04" size="large"></ion-icon>
+                            </a></li>
+                        <li><a href="https://twitter.com/?lang=ko" target="_blank">
+                                <ion-icon name="logo-twitter" class="icon05" size="large"></ion-icon>
+                            </a></li>
+                    </ul>
+
+                    <div class="signup">
+                        <b>Sign up OpenGallary</b>
+                        <ion-icon name="arrow-forward-circle-outline" class="icon06" size="large"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal_login">
+            <form action="#" method="post">
+                <h2>Login</h2>
+                <div class="idForm">
+                  <input type="text" class="id" placeholder="ID">
+                </div>
+                <div class="passForm">
+                  <input type="password" class="pw" placeholder="PW">
+                </div>
+                <button type="button" class="loginbtn" onclick="loginbutton()">
+                  LOG IN
+                </button>
+                <script>
+                    function loginbutton() {
+                        alert("환영합니다.");
+                    }
+                </script>
+                <div class="bottomText">
+                  Don't you have ID? <a href="#">sign up</a>
+                </div>
+              </form>
+        </div>
+        <div class="x_box">
+            x
+        </div>
+    </div>
+</body>
+
+</html>
