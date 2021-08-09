@@ -6,9 +6,8 @@ body, .stage, .ring, .img {
   position: absolute;
 }
 
-body, .stage {
+body {
   background:#000;
-  
 }
 
 .slidertitle {
@@ -20,7 +19,6 @@ body, .stage {
   line-height: 100px;
   position: absolute;
   left: 384px;
-  z-index: 1;
   text-align: center;
 }
 
@@ -362,7 +360,7 @@ ion-icon {
 }
 
 .x_box {
-  margin-top: -200px;
+  margin-top: -204px;
   margin-right: 12px;
   color:white;
   font-size: 40px;
