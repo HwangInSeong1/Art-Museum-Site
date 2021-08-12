@@ -41,27 +41,27 @@ animation01
 }
 
 .animation01 div:nth-child(1) {
-    background-color: #45a4d8;
+    background-color: #ffffff;
     animation-delay: 0.4s;
 }
 
 .animation01 div:nth-child(2) {
-    background-color: #50e43d;
+    background-color: #b9b9b9;
     animation-delay: 0.3s;
 }
 
 .animation01 div:nth-child(3) {
-    background-color: #e8eb33;
+    background-color: #636363;
     animation-delay: 0.2s;
 }
 
 .animation01 div:nth-child(4) {
-    background-color: #af6919;
+    background-color: #303030;
     animation-delay: 0.1s;
 }
 
 .animation01 div:nth-child(5) {
-    background-color: #e65656;
+    background-color: #000000;
 }
 
 @keyframes animation01 {
@@ -146,7 +146,7 @@ animation03
 .animation03 .circle_element01 {
     width: 13vw;
     height: 13vw;
-    border: 0.25vw solid #ebff38;
+    border: 0.25vw solid #888888;
     border-radius: 50%;
     animation: animation03_circle 0.3s ease-in-out 0.5s forwards, animation03_circle_element01 0.3s linear 0.9s forwards;
     opacity: 0;
@@ -155,7 +155,7 @@ animation03
 .animation03 .circle_element02 {
     width: 9vw;
     height: 9vw;
-    border: 0.5vw solid #c08300;
+    border: 0.5vw solid #4e4e4e;
     border-radius: 50%;
     animation: animation03_circle 0.4s ease-in-out 0.5s forwards, animation03_circle_element02 0.2s linear 1.0s forwards;
     opacity: 0;
@@ -164,7 +164,7 @@ animation03
 .animation03 .circle_element03 {
     width: 4vw;
     height: 4vw;
-    border: 1vw solid #c04848;
+    border: 1vw solid #222222;
     border-radius: 50%;
     animation: animation03_circle 0.45s ease-in-out 0.5s forwards, animation03_circle_element03 0.15s linear 1.4s forwards;
     opacity: 0;
@@ -201,7 +201,7 @@ animation03
 
 @keyframes animation03_circle_element03 {
     0% {
-        border: 1vw solid #c04848;
+        border: 1vw solid #414141;
     }
     100% {
         border: 0 solid #000000;
@@ -636,7 +636,7 @@ animation05
     content: "";
     display: block;
     position: absolute;
-    background: #f2f3df;
+    background: #757575;
     z-index: 2;
 }
 
@@ -644,13 +644,13 @@ animation05
     content: "";
     display: block;
     position: absolute;
-    background: #f2f3df;
+    background: #bebebe;
     z-index: 3;
 }
 
 .double_block {
     position: absolute;
-    background: #f2f3df;
+    background: #ffffff;
     border-radius: 50%;
 }
 
@@ -669,7 +669,7 @@ green circle
     transform: translate(-50%, -50%);
     width: 34vw;
     height: 34vw;
-    background: #45a4d8;
+    background: #616161;
     z-index: 1;
 }
 
@@ -715,7 +715,7 @@ navy circle
     transform: translate(-50%, -50%) rotate(-20deg);
     width: 25vw;
     height: 25vw;
-    background: #50e43d;;
+    background: #414141;;
     z-index: 1;
 }
 
@@ -761,7 +761,7 @@ yellow circle
     transform: translate(-50%, -50%) rotate(20deg);
     width: 23vw;
     height: 23vw;
-    background: #af6919;
+    background: #d6d6d6;
     z-index: 1;
 }
 
@@ -807,7 +807,7 @@ blue circle
     transform: translate(-50%, -50%) rotate(20deg);
     width: 16vw;
     height: 16vw;
-    background: #fcff2f;
+    background: #5a5a5a;
     z-index: 1;
 }
 
@@ -853,7 +853,7 @@ red circle
     transform: translate(-50%, -50%) rotate(45deg);
     width: 12vw;
     height: 12vw;
-    background: #c04848;
+    background: #161616;
     z-index: 1;
 }
 
@@ -895,19 +895,19 @@ red circle
 
 @keyframes rotate-circle-left {
     0% {
-        background: #f2f3df;
+        background: #ffffff;
         transform: rotate(0deg);
     }
     50% {
-        background: #f2f3df;
+        background: #ffffff;
         transform: rotate(-180deg);
     }
     50.01% {
-        background: #f2f3df;
+        background: #ffffff;
         transform: rotate(-180deg);
     }
     100% {
-        background: #f2f3df;
+        background: #ffffff;
         transform: rotate(-360deg);
     }
 }
@@ -954,7 +954,7 @@ animation06
     transform: translate(-50%, -50%) rotate(45deg);
     width: 50vw;
     height: 50vw;
-    background-color: #e65656;
+    background-color: #ffffff;
 }
 
 .rhombus03 {
@@ -964,7 +964,7 @@ animation06
     transform: translate(-50%, -50%);
     width: 37.5vw;
     height: 37.5vw;
-    background-color: #45a4d8;
+    background-color: #727272;
 }
 
 .rhombus02 {
@@ -974,7 +974,7 @@ animation06
     transform: translate(-50%, -50%);
     width: 25vw;
     height: 25vw;
-    background-color: #e8eb33;
+    background-color: #313131;
 }
 
 .rhombus01 {
@@ -984,7 +984,7 @@ animation06
     transform: translate(-50%, -50%);
     width: 12.25vw;
     height: 12.25vw;
-    background-color: #fff7c7;
+    background-color: #000000;
 }
 
 @keyframes rhombus {
@@ -1067,7 +1067,7 @@ animation07
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #a18a66;
+    background-color: #ffffff;
 }
 
 /*===========
@@ -1275,31 +1275,31 @@ animation08
 .animation08 div:nth-of-type(1) {
     width: 100%;
     height: 100%;
-    background: #242324;
+    background: #ffffff;
 }
 
 .animation08 div:nth-of-type(2) {
     width: 100%;
     height: 25%;
-    background-color: #45a4d8;
+    background-color: #c0c0c0;
 }
 
 .animation08 div:nth-of-type(3) {
     width: 100%;
     height: 25%;
-    background-color: #50e43d;
+    background-color: #696969;
 }
 
 .animation08 div:nth-of-type(4) {
     width: 100%;
     height: 25%;
-    background-color: #af6919;
+    background-color: #464646;
 }
 
 .animation08 div:nth-of-type(5) {
     width: 100%;
     height: 25%;
-    background-color: #e65656;
+    background-color: #000000;
 }
 
 @keyframes animation08 {
@@ -1438,11 +1438,12 @@ animation06
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #242324;
+    color: #ffffff;
     font-size: 6vw;
     font-family: Arial, Helvetica, sans-serif;
     animation: name 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 2.0s forwards;
     opacity: 0;
+    text-shadow: 4px 2px 2px gray;
 }
 
 @keyframes name {

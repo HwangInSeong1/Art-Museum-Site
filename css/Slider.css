@@ -11,14 +11,13 @@ body {
 }
 
 .slidertitle {
-  width: 60%;
+  width: 100%;
   color:white;
   font-size: 50px;
   margin-top: 5%;
   height: 100px;
   line-height: 100px;
-  position: absolute;
-  left: 384px;
+  position: fixed;
   text-align: center;
 }
 
