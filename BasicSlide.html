@@ -1,12 +1,17 @@
 <html>
-
 <head>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./css/BasicSlide.css">
     <link rel="stylesheet" href="./css/Main.css">
     <link rel="stylesheet" href="./css/Login.css">
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./js/LoginModal.js" defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div class="contain">
@@ -66,6 +71,76 @@
                     </div>
                 </div>
             </div>
+            <div class="slidescreen">
+                <div class="slidercontent">This is Image.</div>
+            <div id="wrapper">
+                <div id="slider-wrap">
+                    <ul id="slider">
+                       <li>
+                          <div>
+                              <h3>Slide #1</h3>
+                              <span>Sub-title #1</span>
+                          </div>                
+          <img src="https://picsum.photos/id/90/1000/700">
+                       </li>
+                       
+                       <li>
+                          <div>
+                              <h3>Slide #2</h3>
+                              <span>Sub-title #2</span>
+                          </div>
+          <img src="https://picsum.photos/id/91/1000/700">
+                       </li>
+                       
+                       <li>
+                          <div>
+                              <h3>Slide #3</h3>
+                              <span>Sub-title #3</span>
+                          </div>
+          <img src="https://picsum.photos/id/92/1000/700">
+                       </li>
+                       
+                       <li>
+                          <div>
+                              <h3>Slide #4</h3>
+                              <span>Sub-title #4</span>
+                          </div>
+          <img src="https://picsum.photos/id/93/1000/700">
+                       </li>
+                       
+                       <li>
+                          <div>
+                              <h3>Slide #5</h3>
+                              <span>Sub-title #5</span>
+                          </div>
+          <img src="https://picsum.photos/id/94/1000/700">
+                       </li>
+      
+                       <li>
+                          <div>
+                              <h3>Slide #6</h3>
+                              <span>Sub-title #6</span>
+                          </div>
+          <img src="https://picsum.photos/id/95/1000/700">
+                       </li>
+                       
+                       
+                    </ul>
+                    
+                     <!--controls-->
+                    <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
+                    <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
+                    <div id="counter"></div>
+                    
+                    <div id="pagination-wrap">
+                      <ul>
+                      </ul>
+                    </div>
+                    <!--controls-->  
+                    <script src="./js/BasicSlide.js"></script>
+                </div>
+             </div>
+            </div>
         </div>
     </div>
     <div class="modal">
@@ -95,6 +170,5 @@
             x
         </div>
     </div>
-</body>
-
+    </body>
 </html>
