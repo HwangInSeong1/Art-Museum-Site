@@ -1,8 +1,18 @@
 a:hover{color:#1bc1a3;}
 
+.bstitle {
+  border: 1px solid black;
+  width: 1309px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 32pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .slidescreen {
   position: absolute;
-  top:-15px;
+  top:-8px;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -13,14 +23,16 @@ a:hover{color:#1bc1a3;}
   position: absolute;
   padding-left: 4px;
   left: 1005px;
-  top: 16px;
+  top: 88px;
   width: 300px;
   height: 682px;
   border:1px solid black;
+  font-size: 16pt;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #wrapper{
-  width:100px;
+  width:1000px;
   height:700px;
   padding-bottom: 15px;
   color:#fff;
